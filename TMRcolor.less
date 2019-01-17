@@ -1,0 +1,407 @@
+/*!
+ * TMRcolor.less v1.24
+ * @copyright 2018 Kirill More | kirillmore86@gmail.com
+ * @license MIT
+ * https://github.com/kirillmore/tmrcolor
+ */
+
+//vars
+  @roundsize: 24px;
+
+  //bg
+  @leatherblack: ~'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAgICAgICAgICAgMDAwMDAwMDAwP/2wBDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAAYABgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAABgIDBAr/xAAgEAACAwEBAAMAAwAAAAAAAAAEBQIDBgEHExQVERIX/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOYJhrjSJEpGmuXsSZRjbzOukpes1F7Qu2NCVwT6b5SqC2uOyp8bIkIxlveXRUxpH+MbkpXzBUSWXAqRmntm/wCTMlwEn0tP7u8xpWNJ16olSAty9+Wvlgztcc4XApF6um6wMCd3zdsss7GIZaumDpxjR7tAXWJezdXF/wCYAakXKOGczv3/AFPWZVINmtXiSfrRuBxYklsrDu0SiZVdXCU+gBou0HaUd4TU3MofuWkZfinWxxPnEX8k9IE/NsNDN52zR+i4dsAfO4cpX0m3hXIDmdqut7dMKUZXRK51EZzB75SwpQkh8PI3ep89mvgPnqV4E71VsnelyHJMnEh6pMyyZcYzJLnOiVNPIBqWHBNv7SlGD7v7MuybI7XegbzbLJ1NXFuGS3emXlM70Zho6+l7LhlrFtcJ0gfgEe0xBxYoYpbh2zLD7pCZYiLMaalxtLfLc3pM2IrCDRL9rpFIFaDFNqGwdpqzDrrlgHTLKOwKI4ZyMQIVjKabwiEuaSB2BPhqOpt3tFrveDsE6stp9Y/LMugj57Vayykhz0gl03vHFHpFs7MP+e1hNtzNhXEyQr6IvyIgSJ7Z2zP/AEWJ7ORUVvcd5I3ooYklPXNx1mYoChUzmo53hA4nJwsD/9k=';
+  @leatherbrown: ~'data:image/png;base64,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';
+  @leathergray:  ~'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAAAAAAeW/F+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3lJREFUGBkFwW1T2nYAAPD/Z9n2xu16a7utna1VqwJWFISkgDyGQHiIgUgIgUBIMDw/hgcBxYJIQUA8jp699q7tXG+3tS+6N/tG+/3A1aGjaubjpn5uM5HxJZj21jGfQrSB2RaJX9oBzwT2UzH711+wDiGvNZ0pyqOV8k7RQ4U1lz4AtUXkUmWvBfRVMga18LWboLprp98pki9ax6sAhaemrH72TFg8TFXXRye6ppKc8EupXMcd2i4C1uAneZYt7PZtBimHhTy+8QYVjmdUjTT7ZA6IO9PBTeg76f3zNr18gXdRdzZeWEnO1r1ZS1sHlNypBeWqUDQkSU/aUcbfeFgQxYAGrXBHgwdA7jorrQbfoGpq4fH1Y0rFRckYYOm0rpyK7EfA4PjlJ4+cDs12UgkOx4hXAVezp1z9t7zUtNLXYFR/wSLXCsvIMBB/HNY3m0OZ5W/7ysTqrO62WsBwXNsKxgP5w93P6aXaqdeaE3eYUsyv6otE4WfwW6UcGv0wN0e9tvIprbXTBfgfWPdxLW8guod2QCAxNuaP4omjkjctQgk2phsIe6XYxVpDFR2D/4zo+PsB0mI330Ph1IHwbtmaJ3pmLJGtPGAE0ImgZCvsapo8TNN2swfdWqwL1/aA8gd0txYDKOqLqMCQB72kdaxTd85262mSs5UdZ/YIFedBMm4c7VWyv38N/jQvv6TPYfgv/P635FOeGm6nhwDpQ1IYOxH1lDeUnsuevaWMl2aCmrCPOkLSByx0Mho0N+swPtMwNJY90RgGWBhjatqJSVUBx+tjBvukxlqKaX5lCnMcllV3STyIVpDzQwWI2/p7AwFiGwgbxtO8B77DkD92NLli6t4bXg8ybFSZIeYCulhOtDe63V/7he3iUd4vqhqoUAbuhHZCwxVxg8tPXJvFq+V8Rt/TZF/L4uOV0ABcedi0HRVjRWU471ioMfJmnbmAQoz2TzjoyIIvigaJjHqyTlhRRMRwEkePaqSt77S2tKXzx8Cau/VCUlB3Yq5XKHn97f3AQk2ewdjn/aevmnpgdJdb6kjcd8odQtW6soXg10ri3CS5fA2HMwV0RuK1sihxzwsuCfZP97NOt7dGisyj5lBRh4Etd+Z0dHFP12WTLre8U5O/B5l4X4QScOjDY/BRnrEKNVckeeFVR4qlEInx1l77nngni3Fb/f8BtFyexKG+HBkAAAAASUVORK5CYII=';
+  @leatherbeige: ~'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAB3hJREFUGBkFwUeSJD0ZAFDpk1faMu0YzIIIrsyCE7HiCATzj+nuMl2ZypQ3vIf/++9/oeo4J7nU67qPWlFUEJUupmDtqPv5KO2eL7eVSvRyPOzG3419fZsut3UahlmJHx8XwuXL+ZC8ezw2LhRnFbimy+2XlFTLIQQf3NI4Gkb1v18/Qq6T6kvYamrertZuT8MY3Fffq9zQ5eO9NpR9Q2LgpJrtbnAQnNbiaq7GOtUFOJ1PpaZft4cL+aiHElNDSEv6dp5aK0DZaizGjUuWU5KSO2cZrgQTzaRo+WEW2vDAVExp3czm9i0GAEWIBKm44NSuGyWk6zVgfL0vNWPOWN/r3e73613rYR7HnNHlsn18PCilSnIfvNAaNbx7W1obx3EcRs5YiqHVpJSGffclw6GfUc5KooLbz8tWEMe4CkFTSFr3MdSeqYHpxTmmFcJYSyEo//pyJREm1V68i05I8Tw/TbxTHTHbAu8XA5xwQRAiuWBKmOYUcKuV+pCZEq9vb63Wx/oVanw+HaCVnAJjQAjerRWSdlqQ1qIvdreb3ypuOdYUCwBrPkXBZcn596+rlPLby0lx4kOJFSec3z8+asl6FA+3UVznvlvX6EMGQLkUKtA4CEno+rXXiqikD2e2zc/TCV5e5hpwaSlmVwEBRq1Wm3ItmeFaQjTG9OOIK0DBtbXj8ZgT/vnHbyHZ68t5N35dPACZjwMhxO1BMPH0enbBgiJECVRrIJTYnBkDQvBlXQlmmtFJ94fpuO2uJJhVn1P69ft3P+jj6VRyJASVTL5uGwCd5w6hvCxrQ5hTXEuAZbNmDznBYR5nLVfjVh+UFEAL45QxjjEiJCGILgRvEwAfekEoXl00u+86yFAAUE3p/rX96fWF4frz/bMgArGi3adW8TQPx76/Xr5CKZxQIBlDuV7vPgSpgQuotSJECaH9wLfdXB8blYoJ9nLWPsT364oR6Tv59nw0zldC8Y///NPcPyKiDFeGyerC03FIuZWUK67G+kEJLXmMLadKGakVAaCYAyW4VtQPgyLl58X4jN5OU4h2GPTtbhuWgHI5nQ4uhH13hJDSKqXoME8+lIdxUqlxGpTqrA21VSUlIXRZNkBwPs0I5W19XE0Wgr0dB+9jLeTzYlIIjFCglP7x+8Eb/OPvf6moAhDv2/fv308HpQRNORNQzkYmWozZeSdVOp0HhNn7x0MIzQU31iDGCGM5J+99q3icumlWgBBat5USSCF2XccJu16/lOoarl2nKYEfP36uq+m7DiEcYqSMcMG3bXM2KqFPp2Ov5bput8dyOBw5FyWnYehjitAQfpo6hPDvj3VbrDFfhaBu6AllNSaIaOjFfOxqLYxnhHCKanls48AQwsaYnBLCJMbUKVFb7EettPzj933zDq43gxHXmnedLq0dDrMQfF0XTlmIOaaolGCcMy6EUAjV6/VSKzo+nc7PfarRmA1Q67Ty3qGWaykxxBg8ZRz2FEE1wTCCsqU89fo0SBeLWX1IVR5lKuFxf1yXffXp6TwLSR7R1xrnXu6+AWMDB00RY+T+tWxmbw0fxk5iBb1WSmghxefHR8qxNswIlYKty6akbBl1usPQog8x+BjjMI4U430PD2NbzXbbGZfOJyUlY5QyNo59ChkhBD3jKGNr3TCOAM346EM8jqqUqjhXWG6Lp4w/z6eOqt3uJYXX6fBx2X/czdvzAFB9KgnxkrOSkpAiNahOfX5+QCrldr3FmF6ez4oJt20Io1JbN/dSc0LKr8/r5dMwQY7noRacU005HMZOYNBqPMxPj+VRYigFKTV47z8/LiGE0/kIMfppGpjgdt+rT1PXY4zN7r72bTUrhioPHVXc2w1Da5V6l7kCJUnH5G7CsjqpRpxybdi5jDH0fe9coJSB7rjUoCS/XPc9R+AwDEMrrfiwb5Yy+XY4z/3ABE0xx5pCjTk0wJQy+Pn+ue/m9Wl6+fbEBb7d3wnhXd91WljvAWOMEKyLBSCi63wMZl21ki+nk5QqxFxcyD4gQK3kLQafU80NCJmnAZigjLntS2r+uDtOBeNs38ykxe2xwLbaFJBx+fAs//w8hz14nylhMaXjcSbQLsvXzXzZLWMiXs7TqGSMJcUINI8DIZg+TPR222yICAGpwzAwxRUTMIwHDDShgqBCS53uEKbWhlqRtSbnKLXKGBPCrQ0S8NvLM6KQcvm8LMmH4EM3zoIJPQjEGsYoh3S9u3lQoHuOUGQZFQcx42XZnPVKEkzafdlLJsdp+tvrE0DOKTnXrPWSk8fD1ILmw4lQkks2KY9dJyu93s1ts2bduRLU2z0En1NuFZVchBBd1zHArZWcmxQqx4Ba5oLDTqz1CGoMAbU2TkIpAYi+X94jQk+jOp/0baOL2U6HHjCDdVlzam/fjhjq++XBNZsPolFKQTwdhorC8jCXz4VC22NuhBynTimJMcKYlZpKsy1VhSgBRjg/DtNAVcrBuxudz3+9fX5nohMde1jcgKdCGvCYgpRQGh6Pr9Z652k/U9QwYZ3qBCbTtmUmCuPy9PRNCunibgN4GxGRXCDZH/8PdZ//5qi3u0QAAAAASUVORK5CYII=';
+  @canvasblack:  ~'data:image/png;base64,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';
+
+//mixins
+  .bc(@color) {
+    background-color: @color;
+  }
+  .bg(@imageurl) {
+    background-image: url(@imageurl);
+  }
+  .name(@color) {
+    .named:after{
+      content: @color;
+    }
+    .named:before {
+    }
+  }
+  .img_lexus(@config; @color) {
+    @format:    'png';
+    @bgcolor:   'ffffff';
+    @site:      'https://images.lexus-europe.com//ru/vehicle/';
+    @options:   ~'/width/940/height/576/background-colour/@{bgcolor}/';
+    @optionssm: ~'/width/80/height/40/background-colour/@{bgcolor}/';
+    .photo {
+      @base-path:~'day-exterior-3_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_front {
+      @base-path:~'day-exterior-0_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_back {
+      @base-path:~'day-exterior-18_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_rside {
+      @base-path:~'day-exterior-9_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_lside {
+      @base-path:~'day-exterior-27_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_isoleft {
+      @base-path:~'day-exterior-33_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_sm {
+      @base-path:~'day-exterior-9_@{color}.@{format}';
+      @url:     '@{site}@{config}@{optionssm}@{base-path}';
+      background-image: url(@url);
+    }
+  }
+  .img_toyota(@config; @color){
+    @format:    'png';
+    @bgcolor:   'ffffff';
+    @site:      'https://images.toyota-europe.com/ru/vehicle/';
+    @options:   ~'/width/940/height/576/background-colour/@{bgcolor}/';
+    @optionssm: ~'/width/80/height/40/background-colour/@{bgcolor}/';
+    .photo {
+      @base-path:~'day-exterior-3_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_front {
+      @base-path:~'day-exterior-0_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_back {
+      @base-path:~'day-exterior-18_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_rside {
+      @base-path:~'day-exterior-9_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_lside {
+      @base-path:~'day-exterior-27_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_isoleft {
+      @base-path:~'day-exterior-33_@{color}.@{format}';
+      @url:     '@{site}@{config}@{options}@{base-path}';
+      background-image: url(@url);
+    }
+    .photo_sm {
+      @base-path:~'day-exterior-9_@{color}.@{format}';
+      @url:     '@{site}@{config}@{optionssm}@{base-path}';
+      background-image: url(@url);
+    }
+  }
+
+//begin
+.roundcolor {
+  width: @roundsize;
+  height: @roundsize;
+  background-color: @blank;
+  border-radius: @roundsize/2;
+  margin: 0 auto 10px auto;
+  border: 1px solid rgba(30, 42, 50, 0.1);
+}
+
+.named:after {
+  margin-left: @roundsize * 1.5;
+  line-height: @roundsize;
+  white-space: nowrap;
+}
+
+.named:before {
+  content: "Цвет";
+  margin-left:-40px;
+}
+
+.photo,
+.photo_front,
+.photo_back,
+.photo_rside,
+.photo_lside,
+.photo_isoleft,
+.photo_sm {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #FFFFFF;
+}
+
+//texture
+.c_leatherblack {.bg(@leatherblack);}
+.c_leatherbrown {.bg(@leatherbrown);}
+.c_leathergray  {.bg(@leathergray);}
+.c_leatherbeige {.bg(@leatherbeige);}
+.c_canvasblack  {.bg(@canvasblack);}
+
+//usual colors
+  @blank:      #00ffff;
+  @beige:      beige;   .c_beige             {.bc(@beige);       .name('Бежевый')}                     //Бежевый
+  @black:      #00000d; .c_black             {.bc(@black);       .name('Черный')}                      //Черный
+  @blue:       #1d50aa; .c_blue              {.bc(@blue);        .name('Синий')}                       //Синий
+  @bluedark:   #142a40; .c_bluedark          {.bc(@bluedark);    .name('Темно-синий')}                 //Темно-синий
+  @bordo:      #72191e; .c_bordo             {.bc(@bordo);       .name('Бордовый')}                    //Бордовый
+  @bronze:     #967444; .c_bronze            {.bc(@bronze);      .name('Бронзовый')}                   //Бронзовый
+  @brown:      #4f3424; .c_brown             {.bc(@brown);       .name('Коричневый')}                  //Коричневый
+  @browndark:  #4f3424; .c_browndark         {.bc(@browndark);   .name('Темно-коричневый')}            //Темно-коричневый
+  @brownlight: #6b5e4d; .c_brownlight        {.bc(@brownlight);  .name('Светло-коричневый')}           //Светло-коричневый
+  @brownpearl: #2a221c; .c_brownpearl        {.bc(@brownpearl);  .name('Коричневый, перламутр')}       //Коричневый, перламутр
+  @brownred:   #5c342e; .c_brownred          {.bc(@brownred);    .name('Красно-коричневый')}           //Красно-коричневый
+  @elephant:   #fffff0; .c_elephant          {.bc(@elephant);    .name('Слоновая кость')}              //Слоновая кость
+  @gray:       #686560; .c_gray              {.bc(@gray);        .name('Серый')}                       //Серый
+  @grayash:    #414244; .c_grayash           {.bc(@grayash);     .name('Пепельно-серый')}              //Пепельно-серый
+  @graydark:   #011924; .c_graydark          {.bc(@graydark);    .name('Темно-серый')}                 //Темно-серый
+  @green:      #44453d; .c_green             {.bc(@green);       .name('Зеленый')}                     //Зеленый
+  @orange:     #db3a1a; .c_orange            {.bc(@orange);      .name('Оранжевый')}                   //Оранжевый
+  @red:        #8b0000; .c_red               {.bc(@red);         .name('Красный')}                     //Красный
+  @reddark:    #72191e; .c_reddark           {.bc(@reddark);     .name('Темно-красный')}               //Темно-красный
+  @redpearl:   #692c33; .c_redpearl          {.bc(@redpearl);    .name('Красный перламутровый')}       //Красный перламутровый
+  @silver:     #f2f2f0; .c_silver            {.bc(@silver);      .name('Серебристый')}                 //Серебристый
+  @turquoise:  #34a9ff; .c_turquoise         {.bc(@turquoise);   .name('Бирюзовый')}                   //Бирюзовый
+  @white:      #fff;    .c_white             {.bc(@white);       .name('Белый')}                       //Белый
+  @whitepearl: #dbdbdb; .c_whitepearl        {.bc(@whitepearl);  .name('Белый перламутровый')}         //Белый перламутровый
+
+//Toyota brand colors
+  //Corolla
+  @configCorolla: '65bfd91d-f2a8-4cbb-bdbc-3834b400492a/6e607e3d-1aca-4834-ae5d-347390196028/';
+  @bluedark:   #142a40; .corolla_bluedark    {.bc(@bluedark);    .name('Темно-синий');                 .img_toyota(@configCorolla;'8Q4');}    //Темно-синий (8Q4)
+  @white:      #fafafa; .corolla_white       {.bc(@white);       .name('Белый');                       .img_toyota(@configCorolla;'040');}    //Белый (040)
+  @grayash:    #414244; .corolla_grayash     {.bc(@grayash);     .name('Пепельно-серый');              .img_toyota(@configCorolla;'1G3');}    //Пепельно-серый металлик (1G3)
+  @browndark:  #5a4138; .corolla_browndark   {.bc(@browndark);   .name('Темно-коричневый металлик');   .img_toyota(@configCorolla;'4U3');}    //Темно-коричневый металлик (4U3)
+  @black:      #030303; .corolla_black       {.bc(@black);       .name('Черный металлик');             .img_toyota(@configCorolla;'209');}    //Черный металлик (209)
+  @gray:       #686560; .corolla_gray        {.bc(@gray);        .name('Серый металлик');              .img_toyota(@configCorolla;'1G2');}    //Серый металлик (1G2)
+  @silver:     #f2f2f0; .corolla_silver      {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configCorolla;'1F7');}    //Серебристый металлик (1F7)
+  @whitepearl: #dbdbdb; .corolla_whitepearl  {.bc(@whitepearl);  .name('Белый перламутровый');         .img_toyota(@configCorolla;'070');}    //Белый перламутровый (070)
+  @redpearl:   #692c33; .corolla_redpearl    {.bc(@redpearl);    .name('Красный перламутровый');       .img_toyota(@configCorolla;'3T3');}    //Красный перламутровый (3T3)
+  //Camry
+  @configCamry: 'b6866060-c84a-4a43-b968-25947907b9cc/e1072450-2c6f-41af-921d-a71320d1c40f/';
+  @white:      #fafafa; .camry_white         {.bc(@white);       .name('Белый');                       .img_toyota(@configCamry;'040');}      //Белый (040)
+  @bluedark:   #1C2124; .camry_bluedark      {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configCamry;'221');}      //Темно-синий, металлик (221)
+  @silver:     #f2f2f0; .camry_silver        {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configCamry;'1F7');}      //Серебристый металлик (1F7)
+  @graybrown:  #69625F; .camry_graybrown     {.bc(@graybrown);   .name('Серо-коричневый, металлик');   .img_toyota(@configCamry;'4X7');}      //Серо-коричневый, металлик (4X7)
+  @black:      #00000d; .camry_black         {.bc(@black);       .name('Черный металлик');             .img_toyota(@configCamry;'218');}      //Черный металлик (218)
+  @whitepearl: #dbdbdb; .camry_whitepearl    {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configCamry;'089');}      //Жемчужно-белый, перламутр (089)
+  //RAV4
+  @configRAV4: 'a68a58fb-a10e-41ae-9459-3a7c4060500f/f3193152-5f0a-427c-9d89-b9f866af0a4d/';
+  @white:      #fafafa; .rav4_white          {.bc(@white);       .name('Белый');                       .img_toyota(@configRAV4;'040');}       //Белый (040)
+  @silver:     #f2f2f0; .rav4_silver         {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configRAV4;'1F7');}       //Серебристый металлик (1F7)
+  @reddark:    #72191e; .rav4_reddark        {.bc(@reddark);     .name('Темно-бордовый, металлик');    .img_toyota(@configRAV4;'3T0');}       //Темно-бордовый, металлик (3T0)
+  @brownlight: #6b5e4d; .rav4_brownlight     {.bc(@brownlight);  .name('Светло-коричневый, металлик'); .img_toyota(@configRAV4;'4T3');}       //Светло-коричневый, металлик (4T3)
+  @black:      #00000d; .rav4_black          {.bc(@black);       .name('Черный металлик');             .img_toyota(@configRAV4;'218');}       //Черный металлик (218)
+  @bluedark:   #1C2124; .rav4_bluedark       {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configRAV4;'221');}       //Темно-синий, металлик (221)
+  @graybrown:  #69625F; .rav4_graybrown      {.bc(@graybrown);   .name('Серо-коричневый, металлик');   .img_toyota(@configRAV4;'4X7');}       //Серо-коричневый, металлик (4X7)
+  @whitepearl: #e9efec; .rav4_whitepearl     {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configRAV4;'089');}       //Белый, перламутр (089)
+  //Highlander
+  @configHighlander: '44938d8c-6050-4bff-9173-500d1b9d76a1/601d60ce-17f4-4264-a3a6-ece2236552aa/';
+  @black:      #00000d; .highlander_black    {.bc(@black);       .name('Черный металлик');             .img_toyota(@configHighlander;'218');} //Черный металлик (218)
+  @silver:     #a3a6a8; .highlander_silver   {.bc(@silver);      .name('Серебристый, металлик');       .img_toyota(@configHighlander;'1J9');} //Серебристый, металлик (1J9)
+  @green:      #44453d; .highlander_green    {.bc(@green);       .name('Зеленый, металлик');           .img_toyota(@configHighlander;'6W4');} //Зеленый, металлик (6W4)
+  @graydark:   #665e66; .highlander_graydark {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configHighlander;'1H1');} //Темно-серый, металлик (1H1)
+  @bordo:      #72191e; .highlander_bordo    {.bc(@bordo);       .name('Темно-бордовый, металлик');    .img_toyota(@configHighlander;'3T0');} //Темно-бордовый, металлик (3T0)
+  //Land Cruiser Prado
+  @configLCPrado: '60ae2897-f9e1-4ff6-bc61-974d2d0edb5f/e1bc7cbf-0ff2-492b-99ea-379fa5dccd2f/';
+  @white:      #fafafa; .lcprado_white       {.bc(@white);       .name('Белый');                       .img_toyota(@configLCPrado;'040');}    //Белый (040)
+  @silver:     #f2f2f0; .lcprado_silver      {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configLCPrado;'1F7');}    //Серебристый металлик (1F7)
+  @black:      #00000d; .lcprado_black       {.bc(@black);       .name('Черный металлик');             .img_toyota(@configLCPrado;'218');}    //Черный металлик (218)
+  @brownlight: #B8AFA2; .lcprado_brownlight  {.bc(@brownlight);  .name('Серо-коричневый, металлик');   .img_toyota(@configLCPrado;'4V8');}    //Серо-коричневый, металлик (4V8)
+  @bluedark:   #1C2124; .lcprado_bluedark    {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configLCPrado;'221');}    //Темно-синий, металлик (221)
+  @graydark:   #525252; .lcprado_graydark    {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configLCPrado;'1G3');}    //Темно-серый, металлик (1G3)
+  @whitepearl: #dbdbdb; .lcprado_whitepearl  {.bc(@whitepearl);  .name('Жемчужно-белый, перламутр');   .img_toyota(@configLCPrado;'070');}    //Жемчужно-белый, перламутр (070)
+  @brownpearl: #382617; .lcprado_brownpearl  {.bc(@brownpearl);  .name('Коричневый, перламутр');       .img_toyota(@configLCPrado;'4X4');}    //Коричневый, перламутр (4X4)3)
+  //Land Cruiser 200
+  @configLC200: 'c682e0ba-ed3a-4a8b-823d-a337fd3ae522/ee758d79-e73c-4783-a40d-c00efabd6991/';
+  @white:      #fafafa; .lc200_white         {.bc(@white);       .name('Белый');                       .img_toyota(@configLC200;'040');}      //Белый (040)
+  @black:      #00000d; .lc200_black         {.bc(@black);       .name('Черный металлик');             .img_toyota(@configLC200;'218');}      //Черный металлик (218)
+  @brownred:   #5c342e; .lc200_brownred      {.bc(@brownred);    .name('Красно-коричневый, металлик'); .img_toyota(@configLC200;'4S6');}      //Красно-коричневый, металлик (4S6)
+  @bluedark:   #161f30; .lc200_bluedark      {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configLC200;'8P8');}      //Темно-синий, металлик (8P8)
+  @graydark:   #525252; .lc200_graydark      {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configLC200;'1G3');}      //Темно-серый, металлик (1G3)
+  @silver:     #f2f2f0; .lc200_silver        {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configLC200;'1F7');}      //Серебристый металлик (1F7)
+  @whitepearl: #dbdbdb; .lc200_whitepearl    {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configLC200;'070');}      //Белый, перламутр (070)
+  //hilux
+  @configHilux: 'e1610f96-e7f9-4cb1-8d64-a659fee2b768/c9920a5c-2ecf-4678-ab16-bd9a85bee4ac/';
+  @white:      #fafafa; .hilux_white         {.bc(@white);       .name('Белый');                       .img_toyota(@configHilux;'040');}      //Белый (040)
+  @black:      #00000d; .hilux_black         {.bc(@black);       .name('Черный металлик');             .img_toyota(@configHilux;'218');}      //Черный металлик (218)
+  @red:        #721522; .hilux_red           {.bc(@red);         .name('Красный, металлик');           .img_toyota(@configHilux;'3T6');}      //Красный, металлик (3T6)
+  @graydark:   #7c7a7a; .hilux_graydark      {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configHilux;'1G3');}      //Темно-серый, металлик (1G3)
+  @blue:       #1d50aa; .hilux_blue          {.bc(@blue);        .name('Синий, металлик');             .img_toyota(@configHilux;'8X2');}      //Синий, металлик (8X2)
+  @orange:     #db3a1a; .hilux_orange        {.bc(@orange);      .name('Оранжевый, металлик');         .img_toyota(@configHilux;'4R8');}      //Оранжевый, металлик (4R8)
+  @silver:     #e0e3ec; .hilux_silver        {.bc(@silver);      .name('Серебристый, металлик');       .img_toyota(@configHilux;'1D6');}      //Серебристый, металлик (1D6)
+  @whitepearl: #e9efec; .hilux_whitepearl    {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configHilux;'070');}      //Белый, перламутр (070)
+  //Alphard
+  //Prius
+  @configPrius: 'prius/f6688a88-6034-450b-86ce-a764c917e5fc/';
+  @white:      #fafafa; .prius_white         {.bc(@white);       .name('Белый');                       .img_toyota(@configPrius;'040');}      //Белый (040)
+  @gray:       #7c7a7a; .prius_gray          {.bc(@gray);        .name('Серый, металлик');             .img_toyota(@configPrius;'1G3');}      //Серый, металлик (1G3)
+  @black:      #00000d; .prius_black         {.bc(@black);       .name('Черный металлик');             .img_toyota(@configPrius;'218');}      //Черный металлик (218)
+  @bluedark:   #1c3277; .prius_bluedark      {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configPrius;'8W7');}      //Темно-синий, металлик (8W7)
+  @silver:     #f2f2f0; .prius_silver        {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configPrius;'1F7');}      //Серебристый металлик (1F7)
+  @redpearl:   #912c38; .prius_redpearl      {.bc(@redpearl);    .name('Красный, перламутр');          .img_toyota(@configPrius;'3T7');}      //Красный, перламутр (3T7)
+  @whitepearl: #e9efec; .prius_whitepearl    {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configPrius;'070');}      //Белый, перламутр (070)
+  //Hiace
+  //C-HR
+  @configCHR1: 'c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a/';
+  @blueblack:  #1d50aa; .chr_blueblack       {.bc(@blueblack);   .name('Синий, металлик, с крышей черного цвета');             .img_toyota(@configCHR1;'2NH');} //Синий, металлик, с крышей черного цвета (2NH)
+  @grayblack:  #aeabac; .chr_grayblack       {.bc(@grayblack);   .name('Серый, металлик, с крышей черного цвета');             .img_toyota(@configCHR1;'2NK');} //Серый, металлик, с крышей черного цвета (2NK)
+  @graydarkblack:#525252;.chr_graydarkblack  {.bc(@graydarkblack);.name('Темно-серый, металлик, с крышей черного цвета');       .img_toyota(@configCHR1;'2NB');} //Темно-серый, металлик, с крышей черного цвета (2NB)
+  @whiteblack: #dbdbdb; .chr_whiteblack      {.bc(@whiteblack);  .name('Жемчужно-белый, перламутр, с крышей черного цвета');   .img_toyota(@configCHR1;'2NA');} //Жемчужно-белый, перламутр, с крышей черного цвета (2NA)
+  @configCHR2: 'c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5/';
+  @graydark:   #525252; .chr_graydark        {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configCHR2;'1G3');}       //Темно-серый, металлик (1G3)
+  @blackmet:   #030303; .chr_blackmet        {.bc(@blackmet);    .name('Черный, металлик');            .img_toyota(@configCHR2;'209');}       //Черный, металлик (209)
+  @silver:     #f2f2f0; .chr_silver          {.bc(@silver);      .name('Серебристый, металлик');       .img_toyota(@configCHR2;'1F7');}       //Серебристый, металлик (1F7)
+  @white:      #fafafa; .chr_white           {.bc(@white);       .name('Белый');                       .img_toyota(@configCHR2;'040');}       //Белый (040)
+  @configCHR3: 'c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192/';
+  @blue:       #1d50aa; .chr_blue            {.bc(@blue);        .name('Синий, металлик');             .img_toyota(@configCHR3;'8X2');}       //Синий, металлик (8X2)
+  @turquoise:  #34a9ff; .chr_turquoise       {.bc(@turquoise);   .name('Бирюзовый, металлик');         .img_toyota(@configCHR3;'8W9');}       //Бирюзовый, металлик (8W9)
+  @gray:       #aeabac; .chr_gray            {.bc(@gray);        .name('Серый, металлик');             .img_toyota(@configCHR3;'1K0');}       //Серый, металлик (1K0)
+  @browndark:  #4f3424; .chr_browndark       {.bc(@browndark);   .name('Темно-коричневый, металлик');  .img_toyota(@configCHR3;'4U3');}       //Темно-коричневый, металлик (4U3)
+  @redpearl:   #60101e; .chr_redpearl        {.bc(@redpearl);    .name('Красный, перламутр');          .img_toyota(@configCHR3;'3T3');}       //Красный, перламутр (3T3)
+  @whitepearl: #e9efec; .chr_whitepearl      {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configCHR3;'070');}       //Белый, перламутр (070)
+  //Fortuner
+  @configFortuner: '97f96026-1b94-4dbb-a862-f3dce0ebb68f/5f5ae45f-6d1a-453c-9854-643b7e18d1f7/';
+  @white:      #fafafa; .fortuner_white      {.bc(@white);        .name('Белый');                      .img_toyota(@configFortuner;'040');}   //Белый (040)
+  @brown:      #321d16; .fortuner_brown      {.bc(@brown);        .name('Коричневый, металлик');       .img_toyota(@configFortuner;'4W9');}   //Коричневый, металлик (4W9)
+  @black:      #00000d; .fortuner_black      {.bc(@black);        .name('Черный, металлик');           .img_toyota(@configFortuner;'218');}   //Черный, металлик (218)
+  @graydark:   #525252; .fortuner_graydark   {.bc(@graydark);     .name('Темно-серый, металлик');      .img_toyota(@configFortuner;'1G3');}   //Темно-серый, металлик (1G3)
+  @blue:       #1d50aa; .fortuner_blue       {.bc(@blue);         .name('Синий, металлик');            .img_toyota(@configFortuner;'8X2');}   //Синий, металлик (8X2)
+  @silver:     #f2f2f0; .fortuner_silver     {.bc(@silver);       .name('Серебристый, металлик');      .img_toyota(@configFortuner;'1D6');}   //Серебристый, металлик (1D6)
+  @whitepearl: #e9efec; .fortuner_whitepearl {.bc(@whitepearl);   .name('Жемчужно-белый, перламутр');  .img_toyota(@configFortuner;'070');}   //Жемчужно-белый, перламутр (070)
+
+//Lexus brand colors
+  //NX
+  @configNX: '0323fb5f-9bfa-4c22-92ac-fb637f84c451/6467/';
+  @black:      #0b0c0e; .nx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configNX;'212');}          //Черный неметаллик (212)
+  @gray:       #3a3d41; .nx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configNX;'1H9');}          //Серый металлик (1H9)
+  @red:        #930911; .nx_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configNX;'3R1');}          //Красный металлик (3R1)
+  @silver:     #e5e5e6; .nx_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configNX;'1J4');}          //Серебр­истый металлик (1J4)
+  @graylight:  #b3ad9f; .nx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configNX;'1J7');}          //Светло-серый металлик (1J7)
+  @white:      #f9fcfc; .nx_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configNX;'085');}          //Искрящийся белый специа­льный металлик (085)
+  @brown:      #321d16; .nx_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configNX;'4X2');}          //Коричневый металлик (4X2)
+  @blackmet:   #232221; .nx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configNX;'223');}          //Черный металлик (223)
+  @bluelight:  #245db3; .nx_bluelight        {.bc(@bluelight);   .name('Светло-синий металлик');       .img_lexus(@configNX;'8X9');}          //Светло-синий металлик (8X9)
+  //ES
+  //@configES: '82bb35a9-e41e-4809-bca8-2be543ec22a3/3907/';
+  //@configES: 'ES/ES%20200/';
+  @configES: '82bb35a9-e41e-4809-bca8-2be543ec22a3/7871';
+  @black:      #0b0c0e; .es_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configES;'212');}          //Черный неметаллик (212)
+  @bluedark:   #182038; .es_bluedark         {.bc(@bluedark);    .name('Темно-голубой металлик');      .img_lexus(@configES;'8X5');}          //Темно-голубой металлик (8X5)
+  @greenmet:   #55574C; .es_greenmet         {.bc(@greenmet);    .name('Зеленый металлик');            .img_lexus(@configES;'6X0');}          //Зеленый металлик (6X0)
+  @graylight:  #bfbdb0; .es_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configES;'1J7');}          //Светло-серый металлик (1J7)
+  @blackmet:   #232221; .es_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configES;'223');}          //Черный металлик (223)
+  @red:        #930911; .es_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configES;'3R1');}          //Красный металлик (3R1)
+  @silver:     #e5e5e6; .es_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configES;'1J4');}          //Серебристый металлик (1J4)
+  @gray:       #3a3d41; .es_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configES;'1H9');}          //Серый металлик (1H9)
+  @beigelight: #bfbbae; .es_beigelight       {.bc(@beigelight);  .name('Светло-бежевый металлик');     .img_lexus(@configES;'4X8');}          //Светло-бежевый металлик (4X8)
+  @white:      #f9fcfc; .es_white            {.bc(@white);       .name('Искрящийся белый металлик');   .img_lexus(@configES;'085');}          //Искрящийся белый специальный металлик (085)  
+  //RX
+  @configRX: 'ac7ecf2e-0f39-4e44-86b2-9db3e1ce6577/4262/';
+  @black:      #0b0c0e; .rx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configRX;'212');}          //Черный неметаллик (212)
+  @brown:      #30251b; .rx_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configRX;'4X2');}          //Коричневый металлик (4X2)
+  @bluedark:   #182038; .rx_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configRX;'8X5');}          //Темно-синий металлик (8X5)
+  @blackmet:   #232221; .rx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configRX;'223');}          //Черный металлик (223)
+  @gray:       #3a3d41; .rx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configRX;'1H9');}          //Серый металлик (1H9)
+  @red:        #930911; .rx_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configRX;'3R1');}          //Красный металлик (3R1)
+  @beige:      #bfbbae; .rx_beige            {.bc(@beige);       .name('Бежевый металлик');            .img_lexus(@configRX;'4U7');}          //Бежевый металлик (4U7)
+  @silver:     #e5e5e6; .rx_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configRX;'1J4');}          //Серебристый металлик (1J4)
+  @graylight:  #bfbdb0; .rx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configRX;'1J7');}          //Светло-серый металлик (1J7)
+  @white:      #f9fcfc; .rx_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configRX;'085');}          //Искрящийся белый специа­льный металлик (085)
+  //LX
+  @configLX: '5f45b6c8-99ec-490a-9f7a-bad8b6fcb222/4310/';//LX 570
+  //@configLX: '5f45b6c8-99ec-490a-9f7a-bad8b6fcb222/4316/';//LX 450d
+  @black:      #0a0b0c; .lx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configLX;'202');}          //Черный неметаллик (202)
+  @bluedark:   #182038; .lx_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configLX;'8X5');}          //Темно-синий металлик (8X5)
+  @gray:       #3a3d41; .lx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configLX;'1H9');}          //Серый металлик (1H9)
+  @graylight:  #bfbdb0; .lx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLX;'1J7');}          //Светло-серый металлик (1J7)
+  @blackmet:   #0d0906; .lx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configLX;'217');}          //Черный металлик (217) 
+  @white:      #f9fcfc; .lx_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configLX;'085');}          //Белый металлик (085)
+  //IS
+  @configIS: 'e3996f63-59b1-43c4-b577-f5bb7c4b9247/7634/';
+  @black:      #0a0b0c; .is_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configIS;'212');}          //Черный неметаллик (212)
+  @red:        #ff0000; .is_red              {.bc(@red);         .name('Ярко-красный неметаллик');     .img_lexus(@configIS;'3T2');}          //Ярко-красный неметаллик (3T2)
+  @white:      #d4d8d1; .is_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configIS;'085');}          //Искрящийся белый специальный металлик (085)
+  @gray:       #5f6266; .is_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configIS;'1H9');}          //Серый металлик (1H9)
+  @silver:     #7D7D81; .is_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configIS;'1J4');}          //Серебристый металлик (1J4)
+  @redmet:     #60000F; .is_redmet           {.bc(@redmet);      .name('Красный металлик');            .img_lexus(@configIS;'3R1');}          //Красный металлик (3R1)
+  @graylight:  #7E7B7A; .is_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configIS;'1J7');}          //Светло-серый металлик (1J7)
+  @blackmet:   #1d1d1e; .is_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configIS;'223');}          //Черный металлик (223)
+  @bluedark:   #283845; .is_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configIS;'8X5');}          //Темно-синий металлик (8X5)
+  //GX
+  @configGX: 'e728fdec-4bb3-490c-a27f-b6043d15e8ad/2603/';//GX 460
+  @black:      #0a0b0c; .gx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configGX;'202');}          //Черный неметаллик (202)
+  @whitepearl: #f5f1ea; .gx_whitepearl       {.bc(@whitepearl);  .name('Белый перламутр');             .img_lexus(@configGX;'077');}          //Белый перламутр (077)
+  @garnet:     #530000; .gx_garnet           {.bc(@garnet);      .name('Гранатовый металлик');         .img_lexus(@configGX;'3S0');}          //Гранатовый металлик (3S0)
+  @bronze:     #321d16; .gx_bronze           {.bc(@bronze);      .name('Бронзовый металлик');          .img_lexus(@configGX;'4V3');}          //Бронзовый металлик (4V3)
+  @blackmet:   #0d0906; .gx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configGX;'217');}          //Черный металлик (217)
+  @gray:       #3a3d41; .gx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configGX;'1H9');}          //Серый металлик (1H9)
+  @silver:     #e5e5e6; .gx_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configGX;'1J4');}          //Серебристый металлик (1J4)
+  @blue:       #182038; .gx_blue             {.bc(@blue);        .name('Синий металлик');              .img_lexus(@configGX;'8X5');}          //Синий металлик (8X5)
+  //RC
+  @configRC: '5c5119f4-c10b-43c2-9b30-6008b4b8f12d/7251/';
+  @black:      #0b0c0e; .rc_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configRC;'212');}          //Черный неметаллик (212)
+  @blue:       #1458e2; .rc_blue             {.bc(@blue);        .name('Синий F SPORT металлик');      .img_lexus(@configRC;'8X1');}          //Синий F SPORT металлик (8X1)
+  @white:      #f9fcfc; .rc_white            {.bc(@white);       .name('Белый F SPORT металлик');      .img_lexus(@configRC;'083');}          //Белый F SPORT металлик (083)
+  @gray:       #3a3d41; .rc_gray             {.bc(@gray);        .name('Cерый металлик');              .img_lexus(@configRC;'1H9');}          //Cерый металлик (1H9)
+  @orange:     #fb8900; .rc_orange           {.bc(@orange);      .name('Оранжевый металлик');          .img_lexus(@configRC;'4W7');}          //Оранжевый металлик (4W7)
+  @silver:     #e5e5e6; .rc_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configRC;'1J4');}          //Серебристый металлик (1J4)
+  @red:        #fb0101; .rc_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configRC;'3T5');}          //Красный металлик (3T5)
+  @graylight:  #b3ad9f; .rc_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configRC;'1J7');}          //Светло-серый металлик (1J7)
+  @blackmet:   #0d0906; .rc_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configRC;'223');}          //Черный металлик (223)
+  //LC
+  @configLC: 'ae1fb328-b61a-4b27-b53d-a857fabdefbd/6062/';
+  @red:        #a70c24; .lc_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configLC;'3T5');}          //Красный металлик (3T5)
+  @brown:      #41271a; .lc_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configLC;'4X2');}          //Коричневый металлик (4X2)
+  @bluedark:   #132237; .lc_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configLC;'8X5');}          //Темно-синий металлик (8X5)
+  @white:      #e9f1f5; .lc_white            {.bc(@white);       .name('Белый F SPORT металлик');      .img_lexus(@configLC;'083');}          //Белый F SPORT металлик (083)
+  @black:      #252627; .lc_black            {.bc(@black);       .name('Черный металлик');             .img_lexus(@configLC;'223');}          //Черный металлик (223)
+  @yellow:     #f8b855; .lc_yellow           {.bc(@yellow);      .name('Желтый металлик');             .img_lexus(@configLC;'5C1');}          //Желтый металлик (5C1)
+  @graylight:  #a9a4a3; .lc_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLC;'1J7');}          //Светло-серый металлик (1J7)
+  //LS
+  @configLS: '569980ce-03f2-4c1e-a11e-d59bf41c9fe2/6882/';
+  @black:      #0B0C0E; .ls_black            {.bc(@black);       .name('Черный');                      .img_lexus(@configLS;'212');}          //Черный (212)
+  @bluedark:   #132237; .ls_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configLS;'8X5');}          //Темно-синий металлик (8X5)
+  @white:      #e9f1f5; .ls_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configLS;'085');}          //Искрящийся белый специальный металлик (085)
+  @graydark:   #787570; .ls_graydark         {.bc(@graydark);    .name('Темно-серый металлик');        .img_lexus(@configLS;'1K2');}          //Темно-серый металлик (1K2)
+  @reddark:    #930911; .ls_reddark          {.bc(@reddark);     .name('Темно-красный металлик)');     .img_lexus(@configLS;'3U3');}          //Темно-красный металлик (3U3)
+  @beige:      #bfbbae; .ls_beige            {.bc(@beige);       .name('Бежевый металлик');            .img_lexus(@configLS;'4U7');}          //Бежевый металлик (4U7)
+  @red:        #a70c24; .ls_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configLS;'3R1');}          //Красный металлик (3R1)
+  @silverlight:#BDBDBF; .ls_silverlight      {.bc(@silverlight); .name('Светло-серебристый металлик'); .img_lexus(@configLS;'1J2');}          //Светло-серебристый металлик (1J2)
+  @graylight:  #BFBDB0; .ls_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLS;'1J7');}          //Светло-серый металлик (1J7)
+  @blackmet:   #252627; .ls_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configLS;'223');}          //Черный металлик (223)
+  @brown:      #32221B; .ls_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configLS;'4X2');}          //Коричневый металлик (4X2)
+
+/*
+//unused models
+  //GS
+  @configGS: '';
+  @black:      #232221; .gs_black            {.bc(@black);       .name('Черный металлик');             .img_lexus(@configGS;'223');}          //Черный металлик (223)
+  @white:      #f9fcfc; .gs_white            {.bc(@white);       .name('Белый F SPORT металлик');      .img_lexus(@configGS;'083');}          //Белый F SPORT металлик (083)
+  @red:        #930911; .gs_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configGS;'3R1');}          //Красный металлик (3R1)
+  @blue:       #2e4067; .gs_blue             {.bc(@blue);        .name('Синий F SPORT металлик');      .img_lexus(@configGS;'8X1');}          //Синий F SPORT металлик (8X1)
+  @orange:     #ce6e49; .gs_orange           {.bc(@orange);      .name('Оранжевый металлик');          .img_lexus(@configGS;'4W7');}          //Оранжевый металлик (4W7)
+  @silverlight:#bdbdbf; .gs_silverlight      {.bc(@silverlight); .name('Светло-серебристый металлик'); .img_lexus(@configGS;'1J2');}          //Светло-серебристый металлик (1J2)
+  @graylight:  #b3ad9f; .gs_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configGS;'1J7');}          //Светло-серый металлик (1J7)
+  @gray:       #3c3e40; .gs_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configGS;'1GO');}          //Серый металлик (1GO)
+*/
+
+//usage
+  //http://lexus-pulkovo.ru/spec/allinclusive/
