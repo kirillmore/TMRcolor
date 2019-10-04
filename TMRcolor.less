@@ -1,6 +1,6 @@
 /*!
- * TMRcolor.less v1.27
- * @copyright 2018 Kirill More | kirillmore86@gmail.com
+ * TMRcolor.less v1.28a
+ * @copyright 2018-2019 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/tmrcolor
  */
@@ -183,19 +183,17 @@
   @whitepearl: #dbdbdb; .c_whitepearl        {.bc(@whitepearl);  .name('Белый перламутровый')}         //Белый перламутровый
 
 //Toyota brand colors
-  //Corolla | (23.04.2019)
-  @configCorolla: 'vehicle/corolla/12cacb3b-a61b-4d5b-ab59-d27860d1f960/';
-  @white:      #fafafa; .corolla_white       {.bc(@white);       .name('Белый');                       .img_toyota(@configCorolla;'040');}    //Белый (040)
+  //Corolla | (04.10.2019)
+  @configCorolla: 'vehicle/corolla/f22d3868-9c8a-47aa-a3f1-a24d65801960/';
+  @white:      #fafafa; .corolla_white       {.bc(@white);       .name('Белый, неметаллик');           .img_toyota(@configCorolla;'040');}    //Белый, неметаллик (040)
   @gray:       #686560; .corolla_gray        {.bc(@gray);        .name('Серый металлик');              .img_toyota(@configCorolla;'1K0');}    //Серый, металлик (1K0)
-  @browndark:  #5a4138; .corolla_browndark   {.bc(@browndark);   .name('Темно-коричневый металлик');   .img_toyota(@configCorolla;'4W9');}    //Темно-коричневый, металлик (4W9)
   @grayblue:   #97a4ac; .corolla_grayblue    {.bc(@grayblue);    .name('Серо-голубой, металлик');      .img_toyota(@configCorolla;'1K3');}    //Серо-голубой, металлик (1K3)
   @black:      #030303; .corolla_black       {.bc(@black);       .name('Черный металлик');             .img_toyota(@configCorolla;'209');}    //Черный металлик (209)
   @bronzemet:  #817e6e; .corolla_bronzemet   {.bc(@bronzemet);   .name('Бронзовый, металлик');         .img_toyota(@configCorolla;'6X1');}    //Бронзовый, металлик (6X1)
   @silver:     #f2f2f0; .corolla_silver      {.bc(@silver);      .name('Серебристый, металлик');       .img_toyota(@configCorolla;'1F7');}    //Серебристый металлик (1F7)
   @whitepearl: #dbdbdb; .corolla_whitepearl  {.bc(@whitepearl);  .name('Белый перламутровый');         .img_toyota(@configCorolla;'070');}    //Белый перламутровый (070)
-  @redpearl:   #692c33; .corolla_redpearl    {.bc(@redpearl);    .name('Красный, перламутр');          .img_toyota(@configCorolla;'3T3');}    //Красный перламутровый (3T3)
-  //Camry | (23.04.2019)
-  @configCamry: 'vehicle/camry/177cd131-ebfb-4621-ad1a-245d5f4603ba/';
+  //Camry | (04.10.2019)
+  @configCamry: 'product-token/1b87c69f-546b-48af-8213-c76bcb028a20/vehicle/e1072450-2c6f-41af-921d-a71320d1c40f/';
   @white:      #fafafa; .camry_white         {.bc(@white);       .name('Белый, неметаллик');           .img_toyota(@configCamry;'040');}      //Белый, неметаллик (040)
   @black:      #00000d; .camry_black         {.bc(@black);       .name('Черный, металлик');            .img_toyota(@configCamry;'218');}      //Черный, металлик (218)
   @graybrown:  #69625F; .camry_graybrown     {.bc(@graybrown);   .name('Серо-коричневый, металлик');   .img_toyota(@configCamry;'4X7');}      //Серо-коричневый, металлик (4X7)
@@ -206,7 +204,7 @@
   @configCHR1: 'vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a/';
   @blueblack:  #1d50aa; .chr_blueblack       {.bc(@blueblack);   .name('Синий, металлик, с крышей черного цвета');             .img_toyota(@configCHR1;'2NH');} //Синий, металлик, с крышей черного цвета (2NH)
   @grayblack:  #aeabac; .chr_grayblack       {.bc(@grayblack);   .name('Серый, металлик, с крышей черного цвета');             .img_toyota(@configCHR1;'2NK');} //Серый, металлик, с крышей черного цвета (2NK)
-  @graydarkblack:#525252;.chr_graydarkblack  {.bc(@graydarkblack);.name('Темно-серый, металлик, с крышей черного цвета');       .img_toyota(@configCHR1;'2NB');} //Темно-серый, металлик, с крышей черного цвета (2NB)
+  @graydarkblack:#525252;.chr_graydarkblack  {.bc(@graydarkblack);.name('Темно-серый, металлик, с крышей черного цвета');      .img_toyota(@configCHR1;'2NB');} //Темно-серый, металлик, с крышей черного цвета (2NB)
   @whiteblack: #dbdbdb; .chr_whiteblack      {.bc(@whiteblack);  .name('Жемчужно-белый, перламутр, с крышей черного цвета');   .img_toyota(@configCHR1;'2NA');} //Жемчужно-белый, перламутр, с крышей черного цвета (2NA)
   @configCHR2: 'vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5/';
   @graydark:   #525252; .chr_graydark        {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configCHR2;'1G3');}       //Темно-серый, металлик (1G3)
@@ -220,16 +218,16 @@
   @browndark:  #4f3424; .chr_browndark       {.bc(@browndark);   .name('Темно-коричневый, металлик');  .img_toyota(@configCHR3;'4W9');}       //Темно-коричневый, металлик (4W9)
   @redpearl:   #60101e; .chr_redpearl        {.bc(@redpearl);    .name('Красный, перламутр');          .img_toyota(@configCHR3;'3T3');}       //Красный, перламутр (3T3)
   @whitepearl: #e9efec; .chr_whitepearl      {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configCHR3;'070');}       //Белый, перламутр (070)
-  //RAV4 | (23.04.2019)
-  @configRAV4: 'vehicle/ra/484c9834-4b79-4207-9d95-4f41d97fdd8c/';
+  //RAV4 | (04.10.2019)
+  @configRAV4: 'product-token/0cad91ca-64d5-456f-8ba9-18178dcbbab6/vehicle/ad91926a-2ff8-4563-b2e8-794393969780/';
   @white:      #fafafa; .rav4_white          {.bc(@white);       .name('Белый, неметаллик');           .img_toyota(@configRAV4;'040');}       //Белый, неметаллик (040)
+  @khaki:      #747a76; .rav4_khaki          {.bc(@khaki);       .name('Хаки, неметаллик');            .img_toyota(@configRAV4;'6X3');}       //Хаки, неметаллик (6X3)
   @silver:     #f2f2f0; .rav4_silver         {.bc(@silver);      .name('Серебристый, металлик');       .img_toyota(@configRAV4;'1F7');}       //Серебристый, металлик (1F7)
-  @reddark:    #72191e; .rav4_reddark        {.bc(@reddark);     .name('Темно-бордовый, металлик');    .img_toyota(@configRAV4;'3T0');}       //Темно-бордовый, металлик (3T0)
-  @brownlight: #6b5e4d; .rav4_brownlight     {.bc(@brownlight);  .name('Светло-коричневый, металлик'); .img_toyota(@configRAV4;'4T3');}       //Светло-коричневый, металлик (4T3)
   @black:      #00000d; .rav4_black          {.bc(@black);       .name('Черный металлик');             .img_toyota(@configRAV4;'218');}       //Черный металлик (218)
-  @bluedark:   #1C2124; .rav4_bluedark       {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configRAV4;'221');}       //Темно-синий, металлик (221)
+  @turquoise:  #0080b1; .rav4_turquoise      {.bc(@turquoise);   .name('Бирюзовый, металлик');         .img_toyota(@configRAV4;'8W9');}       //Бирюзовый, металлик (8W9)
   @graybrown:  #69625F; .rav4_graybrown      {.bc(@graybrown);   .name('Серо-коричневый, металлик');   .img_toyota(@configRAV4;'4X7');}       //Серо-коричневый, металлик (4X7)
   @whitepearl: #e9efec; .rav4_whitepearl     {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configRAV4;'089');}       //Белый, перламутр (089)
+  @bluedark:   #1C2124; .rav4_bluedark       {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configRAV4;'221');}       //Темно-синий, металлик (221)
   //Highlander | (23.04.2019)
   @configHighlander: 'vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720/';
   @black:      #00000d; .highlander_black    {.bc(@black);       .name('Черный металлик');             .img_toyota(@configHighlander;'218');} //Черный металлик (218)
@@ -263,15 +261,14 @@
   @whitepearl: #dbdbdb; .lcprado_whitepearl  {.bc(@whitepearl);  .name('Жемчужно-белый, перламутр');   .img_toyota(@configLCPrado2;'070');}   //Жемчужно-белый, перламутр (070)
   @bluedark:   #1C2124; .lcprado_bluedark    {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configLCPrado2;'221');}   //Темно-синий, металлик (221)
   //Land Cruiser 200 | (23.04.2019)
-  @configLC2001: 'vehicle/landcruiser100/05f0c99e-b820-4831-8459-f8bd4427f152/';
-  @white:      #fafafa; .lc200_white         {.bc(@white);       .name('Белый, неметаллик');           .img_toyota(@configLC2001;'040');}     //Белый (040)
-  @brownred:   #5c342e; .lc200_brownred      {.bc(@brownred);    .name('Красно-коричневый, металлик'); .img_toyota(@configLC2001;'4S6');}     //Красно-коричневый, металлик (4S6)
-  @configLC2002: 'vehicle/landcruiser100/8dc22889-f22d-43e0-bbb0-285176d3648d/';
-  @black:      #00000d; .lc200_black         {.bc(@black);       .name('Черный металлик');             .img_toyota(@configLC2002;'218');}     //Черный металлик (218)
-  @bluedark:   #161f30; .lc200_bluedark      {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configLC2002;'8P8');}     //Темно-синий, металлик (8P8)
-  @graydark:   #525252; .lc200_graydark      {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configLC2002;'1G3');}     //Темно-серый, металлик (1G3)
-  @silver:     #f2f2f0; .lc200_silver        {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configLC2002;'1F7');}     //Серебристый металлик (1F7)
-  @whitepearl: #dbdbdb; .lc200_whitepearl    {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configLC2002;'070');}     //Белый, перламутр (070)
+  @configLC200: 'product-token/ba99c10b-7873-4c77-a542-1d124a2ca186/vehicle/05f0c99e-b820-4831-8459-f8bd4427f152/';
+  @white:      #fafafa; .lc200_white         {.bc(@white);       .name('Белый, неметаллик');           .img_toyota(@configLC200;'040');}     //Белый (040)
+  @graydark:   #525252; .lc200_graydark      {.bc(@graydark);    .name('Темно-серый, металлик');       .img_toyota(@configLC200;'1G3');}     //Темно-серый, металлик (1G3)
+  @black:      #00000d; .lc200_black         {.bc(@black);       .name('Черный металлик');             .img_toyota(@configLC200;'218');}     //Черный металлик (218)
+  @bluedark:   #161f30; .lc200_bluedark      {.bc(@bluedark);    .name('Темно-синий, металлик');       .img_toyota(@configLC200;'8P8');}     //Темно-синий, металлик (8P8)
+  @silver:     #f2f2f0; .lc200_silver        {.bc(@silver);      .name('Серебристый металлик');        .img_toyota(@configLC200;'1F7');}     //Серебристый металлик (1F7)
+  @whitepearl: #dbdbdb; .lc200_whitepearl    {.bc(@whitepearl);  .name('Белый, перламутр');            .img_toyota(@configLC200;'070');}     //Белый, перламутр (070)
+  @blackpearl: #2b2a30; .lc200_blackpearl    {.bc(@blackpearl);  .name('Черный, перламутр');           .img_toyota(@configLC200;'220');}     //Черный, перламутр (220)
   //hilux | (23.04.2019)
   @configHilux: 'product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7/';
   @white:      #fafafa; .hilux_white         {.bc(@white);       .name('Белый, неметаллик');           .img_toyota(@configHilux;'040');}      //Белый, неметаллик (040)
@@ -289,17 +286,17 @@
 //Lexus brand colors
   //UX | (23.04.2019)
   @configUX: 'e327f097-aecf-4ea7-92d1-de76664cdc18/8507/';
-  @redlight:   #a31011; .ux_redlight         {.bc(@redlight);    .name('Светло-красный неметаллик');   .img_lexus(@configUX;'3T2')}              //Светло-красный неметаллик (3T2)
-  @black:      #0d1113; .ux_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configUX;'212')}              //Черный неметаллик (212)
-  @orangedark: #772205; .ux_orangedark       {.bc(@orangedark);  .name('Темно-оранжевый металлик');    .img_lexus(@configUX;'4Y1')}              //Темно-оранжевый металлик (4Y1)
-  @gray:       #5e6367; .ux_gray             {.bc(@gray);        .name('Cерый металлик');              .img_lexus(@configUX;'1H9')}              //Cерый металлик (1H9)
-  @silver:     #a6a7ab; .ux_silver           {.bc(@silver);      .name('Cеребристый металлик');        .img_lexus(@configUX;'1J4')}              //Cеребристый металлик (1J4)
-  @graylight:  #91938a; .ux_graylight        {.bc(@graylight);   .name('Cветло-серый металлик');       .img_lexus(@configUX;'1J7')}              //Cветло-серый металлик (1J7)
-  @black:      #1b1c1c; .ux_black            {.bc(@black);       .name('Черный металлик');             .img_lexus(@configUX;'223')}              //Черный металлик (223)
-  @greendark:  #282919; .ux_greendark        {.bc(@greendark);   .name('Темно-зеленый металлик)');     .img_lexus(@configUX;'6X4')}              //Темно-зеленый металлик (6X4)
-  @blue:       #123473; .ux_blue             {.bc(@blue);        .name('Голубой металлик');            .img_lexus(@configUX;'8Y6')}              //Голубой металлик (8Y6)
-  @white:      #e1e6e0; .ux_white            {.bc(@white);       .name('Искрящийся белый металлик');   .img_lexus(@configUX;'085')}     //Искрящийся белый специальный металлик (085)
-  @brown:      #3e2217; .ux_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configUX;'4X2')}              //Коричневый металлик (4X2)
+  @redlight:   #a31011; .ux_redlight         {.bc(@redlight);    .name('Светло-красный неметаллик');   .img_lexus(@configUX;'3T2')}           //Светло-красный неметаллик (3T2)
+  @black:      #0d1113; .ux_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configUX;'212')}           //Черный неметаллик (212)
+  @orangedark: #772205; .ux_orangedark       {.bc(@orangedark);  .name('Темно-оранжевый металлик');    .img_lexus(@configUX;'4Y1')}           //Темно-оранжевый металлик (4Y1)
+  @gray:       #5e6367; .ux_gray             {.bc(@gray);        .name('Cерый металлик');              .img_lexus(@configUX;'1H9')}           //Cерый металлик (1H9)
+  @silver:     #a6a7ab; .ux_silver           {.bc(@silver);      .name('Cеребристый металлик');        .img_lexus(@configUX;'1J4')}           //Cеребристый металлик (1J4)
+  @graylight:  #91938a; .ux_graylight        {.bc(@graylight);   .name('Cветло-серый металлик');       .img_lexus(@configUX;'1J7')}           //Cветло-серый металлик (1J7)
+  @black:      #1b1c1c; .ux_black            {.bc(@black);       .name('Черный металлик');             .img_lexus(@configUX;'223')}           //Черный металлик (223)
+  @greendark:  #282919; .ux_greendark        {.bc(@greendark);   .name('Темно-зеленый металлик)');     .img_lexus(@configUX;'6X4')}           //Темно-зеленый металлик (6X4)
+  @blue:       #123473; .ux_blue             {.bc(@blue);        .name('Голубой металлик');            .img_lexus(@configUX;'8Y6')}           //Голубой металлик (8Y6)
+  @white:      #e1e6e0; .ux_white            {.bc(@white);       .name('Искрящийся белый металлик');   .img_lexus(@configUX;'085')}           //Искрящийся белый специальный металлик (085)
+  @brown:      #3e2217; .ux_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configUX;'4X2')}           //Коричневый металлик (4X2)
   //NX | (23.04.2019)
   @configNX: '0323fb5f-9bfa-4c22-92ac-fb637f84c451/6467/';
   @black:      #0b0c0e; .nx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configNX;'212');}          //Черный неметаллик (212)
@@ -310,26 +307,28 @@
   @blackmet:   #232221; .nx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configNX;'223');}          //Черный металлик (223)
   @red:        #930911; .nx_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configNX;'3R1');}          //Красный металлик (3R1)
   @brown:      #321d16; .nx_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configNX;'4X2');}          //Коричневый металлик (4X2)
-  //RX | (23.04.2019)
-  @configRX: 'ac7ecf2e-0f39-4e44-86b2-9db3e1ce6577/7568/';
+  //RX | (04.10.2019)
+  @configRX: 'ac7ecf2e-0f39-4e44-86b2-9db3e1ce6577/9257/';
   @black:      #0b0c0e; .rx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configRX;'212');}          //Черный неметаллик (212)
-  @graylight:  #bfbdb0; .rx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configRX;'1J7');}          //Светло-серый металлик (1J7)
-  @brown:      #30251b; .rx_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configRX;'4X2');}          //Коричневый металлик (4X2)
-  @bluedark:   #182038; .rx_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configRX;'8X5');}          //Темно-синий металлик (8X5)
-  @blackmet:   #232221; .rx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configRX;'223');}          //Черный металлик (223)
-  @gray:       #3a3d41; .rx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configRX;'1H9');}          //Серый металлик (1H9)
-  @red:        #930911; .rx_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configRX;'3R1');}          //Красный металлик (3R1)
-  @beige:      #bfbbae; .rx_beige            {.bc(@beige);       .name('Бежевый металлик');            .img_lexus(@configRX;'4U7');}          //Бежевый металлик (4U7)
   @white:      #f9fcfc; .rx_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configRX;'085');}          //Искрящийся белый специа­льный металлик (085)
-  //GX | (23.04.2019)
-  @configGX: 'e728fdec-4bb3-490c-a27f-b6043d15e8ad/2604/';//GX 460
-  @silver:     #e5e5e6; .gx_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configGX;'1J4');}          //Серебристый металлик (1J4)
+  @gray:       #3a3d41; .rx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configRX;'1H9');}          //Серый металлик (1H9)
+  @graylight:  #bfbdb0; .rx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configRX;'1J7');}          //Светло-серый металлик (1J7)
+  @blackmet:   #232221; .rx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configRX;'223');}          //Черный металлик (223)
+  @red:        #930911; .rx_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configRX;'3R1');}          //Красный металлик (3R1)
+  @brown:      #30251b; .rx_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configRX;'4X2');}          //Коричневый металлик (4X2)
+  @beige:      #bfbbae; .rx_beige            {.bc(@beige);       .name('Светло-бежевый металлик');     .img_lexus(@configRX;'4X8');}          //Светло-бежевый металлик (4X8)
+  @greendark:  #282919; .rx_greendark        {.bc(@greendark);   .name('Темно-зеленый металлик');      .img_lexus(@configRX;'6X4');}          //Темно-зеленый металлик (6X4)
+  @bluedark:   #182038; .rx_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configRX;'8X5');}          //Темно-синий металлик (8X5)
+  //GX | (04.10.2019)
+  @configGX: 'e728fdec-4bb3-490c-a27f-b6043d15e8ad/9234/';//GX 460
+  @black:      #0b0c0e; .gx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configGX;'202');}          //Черный неметаллик (202)
+  @gray:       #3a3d41; .gx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configGX;'1H9');}          //Серый металлик (1H9)
+  @graylight:  #bfbdb0; .gx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLX;'1J7');}          //Светло-серый металлик (1J7)  
+  @blue:       #182038; .gx_blue             {.bc(@blue);        .name('Синий металлик');              .img_lexus(@configGX;'8X5');}          //Синий металлик (8X5)
   @whitepearl: #f5f1ea; .gx_whitepearl       {.bc(@whitepearl);  .name('Белый перламутр');             .img_lexus(@configGX;'077');}          //Белый перламутр (077)
+  @blackmet:   #0d0906; .gx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configGX;'217');}          //Черный металлик (217)
   @garnet:     #530000; .gx_garnet           {.bc(@garnet);      .name('Гранатовый металлик');         .img_lexus(@configGX;'3S0');}          //Гранатовый металлик (3S0)
   @bronze:     #321d16; .gx_bronze           {.bc(@bronze);      .name('Бронзовый металлик');          .img_lexus(@configGX;'4V3');}          //Бронзовый металлик (4V3)
-  @blackmet:   #0d0906; .gx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configGX;'217');}          //Черный металлик (217)
-  @gray:       #3a3d41; .gx_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configGX;'1H9');}          //Серый металлик (1H9)
-  @blue:       #182038; .gx_blue             {.bc(@blue);        .name('Синий металлик');              .img_lexus(@configGX;'8X5');}          //Синий металлик (8X5)
   //LX | (23.04.2019)
   @configLX: '5f45b6c8-99ec-490a-9f7a-bad8b6fcb222/4310/';//LX 570
   @black:      #0a0b0c; .lx_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configLX;'202');}          //Черный неметаллик (202)
@@ -338,17 +337,6 @@
   @graylight:  #bfbdb0; .lx_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLX;'1J7');}          //Светло-серый металлик (1J7)
   @blackmet:   #0d0906; .lx_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configLX;'217');}          //Черный металлик (217) 
   @white:      #f9fcfc; .lx_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configLX;'085');}          //Белый металлик (085)
-  //IS | (23.04.2019)
-  @configIS: 'e3996f63-59b1-43c4-b577-f5bb7c4b9247/7635/';
-  @red:        #ff0000; .is_red              {.bc(@red);         .name('Ярко-красный неметаллик');     .img_lexus(@configIS;'3T2');}          //Ярко-красный неметаллик (3T2)
-  @black:      #0a0b0c; .is_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configIS;'212');}          //Черный неметаллик (212)
-  @bluedark:   #283845; .is_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configIS;'8X5');}          //Темно-синий металлик (8X5)
-  @white:      #d4d8d1; .is_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configIS;'085');}          //Искрящийся белый специальный металлик (085)
-  @gray:       #5f6266; .is_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configIS;'1H9');}          //Серый металлик (1H9)
-  @silver:     #7D7D81; .is_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configIS;'1J4');}          //Серебристый металлик (1J4)
-  @redmet:     #60000F; .is_redmet           {.bc(@redmet);      .name('Красный металлик');            .img_lexus(@configIS;'3R1');}          //Красный металлик (3R1)
-  @graylight:  #7E7B7A; .is_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configIS;'1J7');}          //Светло-серый металлик (1J7)
-  @blackmet:   #1d1d1e; .is_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configIS;'223');}          //Черный металлик (223)
   //ES | (23.04.2019)
   @configES: '82bb35a9-e41e-4809-bca8-2be543ec22a3/7871';
   @black:      #0b0c0e; .es_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configES;'212');}          //Черный неметаллик (212)
@@ -361,19 +349,18 @@
   @graylight:  #bfbdb0; .es_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configES;'1J7');}          //Светло-серый металлик (1J7)
   @blackmet:   #232221; .es_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configES;'223');}          //Черный металлик (223)
   @bluedark:   #182038; .es_bluedark         {.bc(@bluedark);    .name('Темно-голубой металлик');      .img_lexus(@configES;'8X5');}          //Темно-голубой металлик (8X5)
-  //LS | (23.04.2019)
+  //LS | (04.10.2019)
   @configLS: '569980ce-03f2-4c1e-a11e-d59bf41c9fe2/6882/';
   @black:      #0B0C0E; .ls_black            {.bc(@black);       .name('Черный');                      .img_lexus(@configLS;'212');}          //Черный (212)
-  @silverlight:#BDBDBF; .ls_silverlight      {.bc(@silverlight); .name('Светло-серебристый металлик'); .img_lexus(@configLS;'1J2');}          //Светло-серебристый металлик (1J2)
   @bluedark:   #132237; .ls_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configLS;'8X5');}          //Темно-синий металлик (8X5)
   @white:      #e9f1f5; .ls_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configLS;'085');}          //Искрящийся белый специальный металлик (085)
   @graydark:   #787570; .ls_graydark         {.bc(@graydark);    .name('Темно-серый металлик');        .img_lexus(@configLS;'1K2');}          //Темно-серый металлик (1K2)
   @reddark:    #930911; .ls_reddark          {.bc(@reddark);     .name('Темно-красный металлик)');     .img_lexus(@configLS;'3U3');}          //Темно-красный металлик (3U3)
   @beige:      #bfbbae; .ls_beige            {.bc(@beige);       .name('Бежевый металлик');            .img_lexus(@configLS;'4U7');}          //Бежевый металлик (4U7)
   @red:        #a70c24; .ls_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configLS;'3R1');}          //Красный металлик (3R1)
+  @silverlight:#BDBDBF; .ls_silverlight      {.bc(@silverlight); .name('Светло-серебристый металлик'); .img_lexus(@configLS;'1J2');}          //Светло-серебристый металлик (1J2)
   @graylight:  #BFBDB0; .ls_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLS;'1J7');}          //Светло-серый металлик (1J7)
   @blackmet:   #252627; .ls_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configLS;'223');}          //Черный металлик (223)
-  @brown:      #32221B; .ls_brown            {.bc(@brown);       .name('Коричневый металлик');         .img_lexus(@configLS;'4X2');}          //Коричневый металлик (4X2)
   //LC | (23.04.2019)
   @configLC: 'ae1fb328-b61a-4b27-b53d-a857fabdefbd/6062/';
   @red:        #a70c24; .lc_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configLC;'3T5');}          //Красный металлик (3T5)
@@ -383,15 +370,25 @@
   @black:      #252627; .lc_black            {.bc(@black);       .name('Черный металлик');             .img_lexus(@configLC;'223');}          //Черный металлик (223)
   @yellow:     #f8b855; .lc_yellow           {.bc(@yellow);      .name('Желтый металлик');             .img_lexus(@configLC;'5C1');}          //Желтый металлик (5C1)
   @graylight:  #a9a4a3; .lc_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configLC;'1J7');}          //Светло-серый металлик (1J7)
-  //RC
-  @configRC: '5c5119f4-c10b-43c2-9b30-6008b4b8f12d/7251/';
-  @black:      #0b0c0e; .rc_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configRC;'223');}          //Черный неметаллик (212)
+  //RC | (04.10.2019)
+  @configRC: '5c5119f4-c10b-43c2-9b30-6008b4b8f12d/7252/';
+  @yellow:     #e4b34a; .rc_yellow           {.bc(@yellow);      .name('Желтый металлик');             .img_lexus(@configRC;'5C1');}          //Желтый металлик (5C1)
   @blue:       #1458e2; .rc_blue             {.bc(@blue);        .name('Синий F SPORT металлик');      .img_lexus(@configRC;'8X1');}          //Синий F SPORT металлик (8X1)
   @white:      #f9fcfc; .rc_white            {.bc(@white);       .name('Белый F SPORT металлик');      .img_lexus(@configRC;'083');}          //Белый F SPORT металлик (083)
   @gray:       #3a3d41; .rc_gray             {.bc(@gray);        .name('Cерый металлик');              .img_lexus(@configRC;'1H9');}          //Cерый металлик (1H9)
   @orange:     #fb8900; .rc_orange           {.bc(@orange);      .name('Оранжевый металлик');          .img_lexus(@configRC;'4W7');}          //Оранжевый металлик (4W7)
-  @silver:     #e5e5e6; .rc_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configRC;'1J4');}          //Серебристый металлик (1J4)
   @red:        #fb0101; .rc_red              {.bc(@red);         .name('Красный металлик');            .img_lexus(@configRC;'3T5');}          //Красный металлик (3T5)
   @graylight:  #b3ad9f; .rc_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configRC;'1J7');}          //Светло-серый металлик (1J7)
-  @blackmet:   #0d0906; .rc_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configRC;'223');}          //Черный металлик (223)
-  @yellow:     #e4b34a; .rc_yellow           {.bc(@yellow);      .name('Желтый металлик');             .img_lexus(@configRC;'5C1');}          //Желтый металлик (5C1)
+  @black:      #0b0c0e; .rc_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configRC;'223');}          //Черный неметаллик (212)
+  //unused models
+  //IS | (23.04.2019)
+  // @configIS: 'e3996f63-59b1-43c4-b577-f5bb7c4b9247/7635/';
+  // @red:        #ff0000; .is_red              {.bc(@red);         .name('Ярко-красный неметаллик');     .img_lexus(@configIS;'3T2');}          //Ярко-красный неметаллик (3T2)
+  // @black:      #0a0b0c; .is_black            {.bc(@black);       .name('Черный неметаллик');           .img_lexus(@configIS;'212');}          //Черный неметаллик (212)
+  // @bluedark:   #283845; .is_bluedark         {.bc(@bluedark);    .name('Темно-синий металлик');        .img_lexus(@configIS;'8X5');}          //Темно-синий металлик (8X5)
+  // @white:      #d4d8d1; .is_white            {.bc(@white);       .name('Белый металлик');              .img_lexus(@configIS;'085');}          //Искрящийся белый специальный металлик (085)
+  // @gray:       #5f6266; .is_gray             {.bc(@gray);        .name('Серый металлик');              .img_lexus(@configIS;'1H9');}          //Серый металлик (1H9)
+  // @silver:     #7D7D81; .is_silver           {.bc(@silver);      .name('Серебристый металлик');        .img_lexus(@configIS;'1J4');}          //Серебристый металлик (1J4)
+  // @redmet:     #60000F; .is_redmet           {.bc(@redmet);      .name('Красный металлик');            .img_lexus(@configIS;'3R1');}          //Красный металлик (3R1)
+  // @graylight:  #7E7B7A; .is_graylight        {.bc(@graylight);   .name('Светло-серый металлик');       .img_lexus(@configIS;'1J7');}          //Светло-серый металлик (1J7)
+  // @blackmet:   #1d1d1e; .is_blackmet         {.bc(@blackmet);    .name('Черный металлик');             .img_lexus(@configIS;'223');}          //Черный металлик (223)
