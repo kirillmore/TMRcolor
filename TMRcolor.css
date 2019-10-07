@@ -1,5 +1,5 @@
 /*!
- * TMRcolor.less v1.28a
+ * TMRcolor.less v1.29a
  * @copyright 2018-2019 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/tmrcolor
@@ -163,7 +163,7 @@
   content: 'Темно-красный';
 }
 .c_redpearl {
-  background-color: #60101e;
+  background-color: #692c33;
 }
 .c_redpearl .named:after {
   content: 'Красный перламутровый';
@@ -550,25 +550,25 @@
   content: 'Синий, металлик, с крышей черного цвета';
 }
 .chr_blueblack .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NH.png');
 }
 .chr_blueblack .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NH.png');
 }
 .chr_blueblack .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NH.png');
 }
 .chr_blueblack .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NH.png');
 }
 .chr_blueblack .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NH.png');
 }
 .chr_blueblack .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NH.png');
 }
 .chr_blueblack .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NH.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NH.png');
 }
 .chr_grayblack {
   background-color: #aeabac;
@@ -577,25 +577,25 @@
   content: 'Серый, металлик, с крышей черного цвета';
 }
 .chr_grayblack .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NK.png');
 }
 .chr_grayblack .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NK.png');
 }
 .chr_grayblack .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NK.png');
 }
 .chr_grayblack .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NK.png');
 }
 .chr_grayblack .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NK.png');
 }
 .chr_grayblack .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NK.png');
 }
 .chr_grayblack .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NK.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NK.png');
 }
 .chr_graydarkblack {
   background-color: #525252;
@@ -604,25 +604,25 @@
   content: 'Темно-серый, металлик, с крышей черного цвета';
 }
 .chr_graydarkblack .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NB.png');
 }
 .chr_graydarkblack .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NB.png');
 }
 .chr_graydarkblack .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NB.png');
 }
 .chr_graydarkblack .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NB.png');
 }
 .chr_graydarkblack .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NB.png');
 }
 .chr_graydarkblack .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NB.png');
 }
 .chr_graydarkblack .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NB.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NB.png');
 }
 .chr_whiteblack {
   background-color: #dbdbdb;
@@ -631,25 +631,25 @@
   content: 'Жемчужно-белый, перламутр, с крышей черного цвета';
 }
 .chr_whiteblack .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-5_2NA.png');
 }
 .chr_whiteblack .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-0_2NA.png');
 }
 .chr_whiteblack .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-18_2NA.png');
 }
 .chr_whiteblack .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-9_2NA.png');
 }
 .chr_whiteblack .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-27_2NA.png');
 }
 .chr_whiteblack .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/940/height/576/background-colour/ffffff/day-exterior-33_2NA.png');
 }
 .chr_whiteblack .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NA.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/22d5a8d3-416a-4389-8a1b-19893d421c3a//width/80/height/40/background-colour/ffffff/day-exterior-9_2NA.png');
 }
 .chr_graydark {
   background-color: #787570;
@@ -658,25 +658,52 @@
   content: 'Темно-серый, металлик';
 }
 .chr_graydark .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-5_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_1G3.png');
 }
 .chr_graydark .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-0_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_1G3.png');
 }
 .chr_graydark .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-18_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_1G3.png');
 }
 .chr_graydark .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-9_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_1G3.png');
 }
 .chr_graydark .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-27_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_1G3.png');
 }
 .chr_graydark .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-33_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_1G3.png');
 }
 .chr_graydark .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/80/height/40/background-colour/ffffff/day-exterior-9_1G3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_1G3.png');
+}
+.chr_bluemet {
+  background-color: #0058a5;
+}
+.chr_bluemet .named:after {
+  content: 'Синий, металлик';
+}
+.chr_bluemet .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_8X2.png');
+}
+.chr_bluemet .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_8X2.png');
+}
+.chr_bluemet .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_8X2.png');
+}
+.chr_bluemet .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_8X2.png');
+}
+.chr_bluemet .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_8X2.png');
+}
+.chr_bluemet .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_8X2.png');
+}
+.chr_bluemet .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_8X2.png');
 }
 .chr_blackmet {
   background-color: #252627;
@@ -685,160 +712,25 @@
   content: 'Черный, металлик';
 }
 .chr_blackmet .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-5_209.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_209.png');
 }
 .chr_blackmet .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-0_209.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_209.png');
 }
 .chr_blackmet .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-18_209.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_209.png');
 }
 .chr_blackmet .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-9_209.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_209.png');
 }
 .chr_blackmet .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-27_209.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_209.png');
 }
 .chr_blackmet .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-33_209.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_209.png');
 }
 .chr_blackmet .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/80/height/40/background-colour/ffffff/day-exterior-9_209.png');
-}
-.chr_silver {
-  background-color: #e5e5e6;
-}
-.chr_silver .named:after {
-  content: 'Серебристый, металлик';
-}
-.chr_silver .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-5_1F7.png');
-}
-.chr_silver .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-0_1F7.png');
-}
-.chr_silver .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-18_1F7.png');
-}
-.chr_silver .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-9_1F7.png');
-}
-.chr_silver .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-27_1F7.png');
-}
-.chr_silver .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-33_1F7.png');
-}
-.chr_silver .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/80/height/40/background-colour/ffffff/day-exterior-9_1F7.png');
-}
-.chr_white {
-  background-color: #f9fcfc;
-}
-.chr_white .named:after {
-  content: 'Белый';
-}
-.chr_white .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-5_040.png');
-}
-.chr_white .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-0_040.png');
-}
-.chr_white .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-18_040.png');
-}
-.chr_white .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-9_040.png');
-}
-.chr_white .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-27_040.png');
-}
-.chr_white .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-33_040.png');
-}
-.chr_white .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/80/height/40/background-colour/ffffff/day-exterior-9_040.png');
-}
-.chr_blue {
-  background-color: #1458e2;
-}
-.chr_blue .named:after {
-  content: 'Синий, металлик';
-}
-.chr_blue .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_8X2.png');
-}
-.chr_blue .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_8X2.png');
-}
-.chr_blue .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_8X2.png');
-}
-.chr_blue .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_8X2.png');
-}
-.chr_blue .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_8X2.png');
-}
-.chr_blue .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_8X2.png');
-}
-.chr_blue .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_8X2.png');
-}
-.chr_turquoise {
-  background-color: #0080b1;
-}
-.chr_turquoise .named:after {
-  content: 'Бирюзовый, металлик';
-}
-.chr_turquoise .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_8W9.png');
-}
-.chr_turquoise .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_8W9.png');
-}
-.chr_turquoise .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_8W9.png');
-}
-.chr_turquoise .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_8W9.png');
-}
-.chr_turquoise .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_8W9.png');
-}
-.chr_turquoise .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_8W9.png');
-}
-.chr_turquoise .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_8W9.png');
-}
-.chr_gray {
-  background-color: #3a3d41;
-}
-.chr_gray .named:after {
-  content: 'Серый, металлик';
-}
-.chr_gray .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_1K0.png');
-}
-.chr_gray .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_1K0.png');
-}
-.chr_gray .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_1K0.png');
-}
-.chr_gray .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_1K0.png');
-}
-.chr_gray .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_1K0.png');
-}
-.chr_gray .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_1K0.png');
-}
-.chr_gray .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_1K0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_209.png');
 }
 .chr_browndark {
   background-color: #4f3424;
@@ -847,52 +739,79 @@
   content: 'Темно-коричневый, металлик';
 }
 .chr_browndark .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_4W9.png');
 }
 .chr_browndark .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_4W9.png');
 }
 .chr_browndark .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_4W9.png');
 }
 .chr_browndark .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_4W9.png');
 }
 .chr_browndark .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_4W9.png');
 }
 .chr_browndark .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_4W9.png');
 }
 .chr_browndark .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_4W9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_4W9.png');
 }
-.chr_redpearl {
-  background-color: #60101e;
+.chr_gray {
+  background-color: #3a3d41;
 }
-.chr_redpearl .named:after {
-  content: 'Красный, перламутр';
+.chr_gray .named:after {
+  content: 'Серый, металлик';
 }
-.chr_redpearl .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_3T3.png');
+.chr_gray .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_1K0.png');
 }
-.chr_redpearl .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_3T3.png');
+.chr_gray .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_1K0.png');
 }
-.chr_redpearl .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_3T3.png');
+.chr_gray .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_1K0.png');
 }
-.chr_redpearl .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_3T3.png');
+.chr_gray .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_1K0.png');
 }
-.chr_redpearl .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_3T3.png');
+.chr_gray .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_1K0.png');
 }
-.chr_redpearl .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_3T3.png');
+.chr_gray .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_1K0.png');
 }
-.chr_redpearl .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_3T3.png');
+.chr_gray .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_1K0.png');
+}
+.chr_silver {
+  background-color: #e5e5e6;
+}
+.chr_silver .named:after {
+  content: 'Серебристый, металлик';
+}
+.chr_silver .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_1F7.png');
+}
+.chr_silver .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_1F7.png');
+}
+.chr_silver .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_1F7.png');
+}
+.chr_silver .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_1F7.png');
+}
+.chr_silver .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_1F7.png');
+}
+.chr_silver .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_1F7.png');
+}
+.chr_silver .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_1F7.png');
 }
 .chr_whitepearl {
   background-color: #f5f1ea;
@@ -901,25 +820,52 @@
   content: 'Белый, перламутр';
 }
 .chr_whitepearl .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-5_070.png');
 }
 .chr_whitepearl .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-0_070.png');
 }
 .chr_whitepearl .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-18_070.png');
 }
 .chr_whitepearl .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-9_070.png');
 }
 .chr_whitepearl .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-27_070.png');
 }
 .chr_whitepearl .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/940/height/576/background-colour/ffffff/day-exterior-33_070.png');
 }
 .chr_whitepearl .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/c-hr/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/2e8b7cb4-5a8a-472d-b2bc-c8829eee3192//width/80/height/40/background-colour/ffffff/day-exterior-9_070.png');
+}
+.chr_white {
+  background-color: #f9fcfc;
+}
+.chr_white .named:after {
+  content: 'Белый';
+}
+.chr_white .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-5_040.png');
+}
+.chr_white .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-0_040.png');
+}
+.chr_white .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-18_040.png');
+}
+.chr_white .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-9_040.png');
+}
+.chr_white .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-27_040.png');
+}
+.chr_white .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/940/height/576/background-colour/ffffff/day-exterior-33_040.png');
+}
+.chr_white .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/9b5f2ac9-29eb-44f1-af4e-fe6daafb874e/vehicle/18404387-60b8-4c8e-abc1-d9bf4efccde5//width/80/height/40/background-colour/ffffff/day-exterior-9_040.png');
 }
 .rav4_white {
   background-color: #f9fcfc;
@@ -1137,33 +1083,6 @@
 .rav4_bluedark .photo_sm {
   background-image: url('https://images.toyota-europe.com/ru/product-token/0cad91ca-64d5-456f-8ba9-18178dcbbab6/vehicle/ad91926a-2ff8-4563-b2e8-794393969780//width/80/height/40/background-colour/ffffff/day-exterior-9_221.png');
 }
-.highlander_black {
-  background-color: #0b0c0e;
-}
-.highlander_black .named:after {
-  content: 'Черный металлик';
-}
-.highlander_black .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_218.png');
-}
-.highlander_black .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_218.png');
-}
-.highlander_black .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_218.png');
-}
-.highlander_black .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_218.png');
-}
-.highlander_black .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_218.png');
-}
-.highlander_black .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_218.png');
-}
-.highlander_black .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_218.png');
-}
 .highlander_silver {
   background-color: #e5e5e6;
 }
@@ -1171,25 +1090,52 @@
   content: 'Светло-серый, металлик';
 }
 .highlander_silver .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_1J9.png');
 }
 .highlander_silver .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_1J9.png');
 }
 .highlander_silver .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_1J9.png');
 }
 .highlander_silver .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_1J9.png');
 }
 .highlander_silver .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_1J9.png');
 }
 .highlander_silver .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_1J9.png');
 }
 .highlander_silver .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_1J9.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_1J9.png');
+}
+.highlander_black {
+  background-color: #0b0c0e;
+}
+.highlander_black .named:after {
+  content: 'Черный металлик';
+}
+.highlander_black .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_218.png');
+}
+.highlander_black .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_218.png');
+}
+.highlander_black .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_218.png');
+}
+.highlander_black .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_218.png');
+}
+.highlander_black .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_218.png');
+}
+.highlander_black .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_218.png');
+}
+.highlander_black .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_218.png');
 }
 .highlander_green {
   background-color: #44453d;
@@ -1198,25 +1144,25 @@
   content: 'Зеленый, металлик';
 }
 .highlander_green .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_6W4.png');
 }
 .highlander_green .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_6W4.png');
 }
 .highlander_green .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_6W4.png');
 }
 .highlander_green .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_6W4.png');
 }
 .highlander_green .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_6W4.png');
 }
 .highlander_green .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_6W4.png');
 }
 .highlander_green .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_6W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_6W4.png');
 }
 .highlander_graydark {
   background-color: #787570;
@@ -1225,25 +1171,25 @@
   content: 'Темно-серый, металлик';
 }
 .highlander_graydark .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_1H1.png');
 }
 .highlander_graydark .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_1H1.png');
 }
 .highlander_graydark .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_1H1.png');
 }
 .highlander_graydark .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_1H1.png');
 }
 .highlander_graydark .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_1H1.png');
 }
 .highlander_graydark .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_1H1.png');
 }
 .highlander_graydark .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_1H1.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_1H1.png');
 }
 .highlander_bordo {
   background-color: #72191e;
@@ -1252,25 +1198,25 @@
   content: 'Темно-бордовый, металлик';
 }
 .highlander_bordo .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_3T0.png');
 }
 .highlander_bordo .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_3T0.png');
 }
 .highlander_bordo .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_3T0.png');
 }
 .highlander_bordo .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_3T0.png');
 }
 .highlander_bordo .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_3T0.png');
 }
 .highlander_bordo .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_3T0.png');
 }
 .highlander_bordo .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_3T0.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_3T0.png');
 }
 .highlander_reddark {
   background-color: #930911;
@@ -1279,25 +1225,25 @@
   content: 'Темно-красный, металлик';
 }
 .highlander_reddark .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_3Q3.png');
 }
 .highlander_reddark .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_3Q3.png');
 }
 .highlander_reddark .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_3Q3.png');
 }
 .highlander_reddark .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_3Q3.png');
 }
 .highlander_reddark .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_3Q3.png');
 }
 .highlander_reddark .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_3Q3.png');
 }
 .highlander_reddark .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_3Q3.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_3Q3.png');
 }
 .highlander_grayblue {
   background-color: #57657a;
@@ -1306,25 +1252,25 @@
   content: 'Серо-голубой, металлик';
 }
 .highlander_grayblue .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_8V5.png');
 }
 .highlander_grayblue .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_8V5.png');
 }
 .highlander_grayblue .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_8V5.png');
 }
 .highlander_grayblue .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_8V5.png');
 }
 .highlander_grayblue .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_8V5.png');
 }
 .highlander_grayblue .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_8V5.png');
 }
 .highlander_grayblue .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_8V5.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_8V5.png');
 }
 .highlander_brown {
   background-color: #41271a;
@@ -1333,25 +1279,25 @@
   content: 'Коричневый, металлик';
 }
 .highlander_brown .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_4W4.png');
 }
 .highlander_brown .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_4W4.png');
 }
 .highlander_brown .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_4W4.png');
 }
 .highlander_brown .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_4W4.png');
 }
 .highlander_brown .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_4W4.png');
 }
 .highlander_brown .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_4W4.png');
 }
 .highlander_brown .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_4W4.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_4W4.png');
 }
 .highlander_whitepearl {
   background-color: #f5f1ea;
@@ -1360,25 +1306,25 @@
   content: 'Жемчужно-белый, перламутр';
 }
 .highlander_whitepearl .photo {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-5_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-5_070.png');
 }
 .highlander_whitepearl .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-0_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-0_070.png');
 }
 .highlander_whitepearl .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-18_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-18_070.png');
 }
 .highlander_whitepearl .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-9_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-9_070.png');
 }
 .highlander_whitepearl .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-27_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-27_070.png');
 }
 .highlander_whitepearl .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/940/height/576/background-colour/ffffff/day-exterior-33_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/940/height/576/background-colour/ffffff/day-exterior-33_070.png');
 }
 .highlander_whitepearl .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/vehicle/highlander/8412c946-66ba-4f4f-9b63-30a0fc726720//width/80/height/40/background-colour/ffffff/day-exterior-9_070.png');
+  background-image: url('https://images.toyota-europe.com/ru/product-token/c69e4983-c1c5-4153-bf68-af2e57b0689e/vehicle/601d60ce-17f4-4264-a3a6-ece2236552aa//width/80/height/40/background-colour/ffffff/day-exterior-9_070.png');
 }
 .fortuner_white {
   background-color: #f9fcfc;
