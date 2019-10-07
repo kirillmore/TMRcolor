@@ -1,5 +1,5 @@
 /*!
- * TMRcolor.less v1.29a
+ * TMRcolor.less v1.30a
  * @copyright 2018-2019 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/tmrcolor
@@ -1947,60 +1947,6 @@
 .hilux_white .photo_sm {
   background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_040.png');
 }
-.hilux_black {
-  background-color: #0b0c0e;
-}
-.hilux_black .named:after {
-  content: 'Черный, металлик';
-}
-.hilux_black .photo {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-5_218.png');
-}
-.hilux_black .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-0_218.png');
-}
-.hilux_black .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-18_218.png');
-}
-.hilux_black .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-9_218.png');
-}
-.hilux_black .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-27_218.png');
-}
-.hilux_black .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-33_218.png');
-}
-.hilux_black .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_218.png');
-}
-.hilux_red {
-  background-color: #fb0101;
-}
-.hilux_red .named:after {
-  content: 'Красный, металлик';
-}
-.hilux_red .photo {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-5_3T6.png');
-}
-.hilux_red .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-0_3T6.png');
-}
-.hilux_red .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-18_3T6.png');
-}
-.hilux_red .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-9_3T6.png');
-}
-.hilux_red .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-27_3T6.png');
-}
-.hilux_red .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-33_3T6.png');
-}
-.hilux_red .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_3T6.png');
-}
 .hilux_graydark {
   background-color: #787570;
 }
@@ -2027,6 +1973,33 @@
 }
 .hilux_graydark .photo_sm {
   background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_1G3.png');
+}
+.hilux_black {
+  background-color: #0b0c0e;
+}
+.hilux_black .named:after {
+  content: 'Черный, металлик';
+}
+.hilux_black .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-5_218.png');
+}
+.hilux_black .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-0_218.png');
+}
+.hilux_black .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-18_218.png');
+}
+.hilux_black .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-9_218.png');
+}
+.hilux_black .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-27_218.png');
+}
+.hilux_black .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-33_218.png');
+}
+.hilux_black .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_218.png');
 }
 .hilux_blue {
   background-color: #1458e2;
@@ -2055,33 +2028,6 @@
 .hilux_blue .photo_sm {
   background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_8X2.png');
 }
-.hilux_orange {
-  background-color: #fb8900;
-}
-.hilux_orange .named:after {
-  content: 'Оранжевый, металлик';
-}
-.hilux_orange .photo {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-5_4R8.png');
-}
-.hilux_orange .photo_front {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-0_4R8.png');
-}
-.hilux_orange .photo_back {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-18_4R8.png');
-}
-.hilux_orange .photo_rside {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-9_4R8.png');
-}
-.hilux_orange .photo_lside {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-27_4R8.png');
-}
-.hilux_orange .photo_isoleft {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-33_4R8.png');
-}
-.hilux_orange .photo_sm {
-  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_4R8.png');
-}
 .hilux_silver {
   background-color: #e5e5e6;
 }
@@ -2108,6 +2054,60 @@
 }
 .hilux_silver .photo_sm {
   background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_1D6.png');
+}
+.hilux_red {
+  background-color: #fb0101;
+}
+.hilux_red .named:after {
+  content: 'Красный, металлик';
+}
+.hilux_red .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-5_3T6.png');
+}
+.hilux_red .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-0_3T6.png');
+}
+.hilux_red .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-18_3T6.png');
+}
+.hilux_red .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-9_3T6.png');
+}
+.hilux_red .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-27_3T6.png');
+}
+.hilux_red .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-33_3T6.png');
+}
+.hilux_red .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_3T6.png');
+}
+.hilux_orange {
+  background-color: #fb8900;
+}
+.hilux_orange .named:after {
+  content: 'Оранжевый, металлик';
+}
+.hilux_orange .photo {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-5_4R8.png');
+}
+.hilux_orange .photo_front {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-0_4R8.png');
+}
+.hilux_orange .photo_back {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-18_4R8.png');
+}
+.hilux_orange .photo_rside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-9_4R8.png');
+}
+.hilux_orange .photo_lside {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-27_4R8.png');
+}
+.hilux_orange .photo_isoleft {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/940/height/576/background-colour/ffffff/day-exterior-33_4R8.png');
+}
+.hilux_orange .photo_sm {
+  background-image: url('https://images.toyota-europe.com/ru/product-token/2bec14de-608d-46a8-838c-cdf4905fd878/vehicle/33518bb9-a61f-413f-b884-7d9a008cadf7//width/80/height/40/background-colour/ffffff/day-exterior-9_4R8.png');
 }
 .hilux_whitepearl {
   background-color: #f5f1ea;
