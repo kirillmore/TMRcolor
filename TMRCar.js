@@ -104,6 +104,7 @@ $(document).ready(function (){
         "nx_blackmet":"nx_blackmet",
         "nx_red":"nx_red",
         "nx_brown":"nx_brown",
+        "nx_orangedark":"nx_orangedark",
         "rx_black":"rx_black",
         "rx_white":"rx_white",
         "rx_gray":"rx_gray",
@@ -154,14 +155,6 @@ $(document).ready(function (){
         "lc_black":"lc_black",
         "lc_yellow":"lc_yellow",
         "lc_graylight":"lc_graylight",
-        "rc_yellow":"rc_yellow",
-        "rc_blue":"rc_blue",
-        "rc_white":"rc_white",
-        "rc_gray":"rc_gray",
-        "rc_orange":"rc_orange",
-        "rc_red":"rc_red",
-        "rc_graylight":"rc_graylight",
-        "rc_black":"rc_black",
       };
       modelValues={
         "corolla": "black",
@@ -179,7 +172,6 @@ $(document).ready(function (){
         "lx": "black",
         "gx": "black",
         "es": "black",
-        "rc": "black",
         "lc": "black",
         "ls": "black"
       };
@@ -197,7 +189,6 @@ $(document).ready(function (){
     }
 
     function randomLoad(){
-
     }
 
   //actions
